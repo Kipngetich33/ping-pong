@@ -1,9 +1,9 @@
-// var divisible3 = function(input){
-// 	if input%3===0;
-// 	return true};
-// 	else {
-// 		return false;
-// 	}
+var divisible3 = function(input){
+	if input%3===0;
+	return true};
+	else {
+		return false;
+	}
 
 // var divisible5 = function(input){
 // 	if input%5===0;
