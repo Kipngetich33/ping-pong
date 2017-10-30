@@ -20,4 +20,3 @@ function pingPong(input){
 };
 
 //user interface
-// 
