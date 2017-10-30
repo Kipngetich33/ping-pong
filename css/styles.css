@@ -1,0 +1,35 @@
+#top{
+	color:#000000;
+	background-color: #ffd699;
+	text-align: center;
+	height: 200px;
+}
+#top h1{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 40%;
+/*}
+#main-body{
+	background-color: gainsboro;
+}
+#sidebar{
+	background-color: #39ac73;
+	margin-top: 25px;
+	padding-left: 2%;
+}
+h4{
+	color: #ffd699;
+}
+#main-column{
+	margin-top: 25px;
+	padding-left: 2%;
+}
+h5{
+	padding-left: 2%;
+	font-weight: bold;
+}
+label{
+	font-weight: bold;
+}*/
