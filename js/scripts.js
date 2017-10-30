@@ -12,9 +12,9 @@ function pingPong(input){
 		else if (position%3===0){
 			rangeOfNumbers.push("Ping");
 		}
-		// else {
-		// 	rangeOfNumbers.push(position)
-		// }
+		else {
+			rangeOfNumbers.push(position)
+		}
 	};
     return rangeOfNumbers;
 };
