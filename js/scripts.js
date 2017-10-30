@@ -1,35 +1,23 @@
-var divisible3 = function(input){
-	if input%3===0;
-	return true};
-	else {
-		return false;
-	}
+//business logic
+function pingPong(input){
+	var rangeOfNumbers= [];
 
-var divisible5 = function(input){
-	if input%5===0;
-	return true};
-	else {
-		return false;
-	}
-var divisible3n5 = function(input){
-	if (input%3===0) && (input%5===0){
-		return true;
-	}
-	else {
-		return false;
-	}
+	for (var position=1;position <=input ;position++){
+		if (position%3===0)&& (position%5===0){
+			rangeOfNumbers.push("PingPong");
+		}
+		// else if (position%5===0){
+		// 	rangeOfNumbers.push("Pong");
+		// }
+		// else if (position%3===0){
+		// 	rangeOfNumbers.push("Ping");
+		// }
+		// else {
+		// 	rangeOfNumbers.push(position)
+		// }
+	};
+    return rangeOfNumbers;
+};
 
-
-$(document).ready(function(){
-    
-	$("#form").submit(function(event){
-		var number= $("input").val();
-
-		$("#output").append("<li>"+number+"</li>");
-
-		event.preventDefault();
-
-	});
-
-
-});
+//user interface
+// 
