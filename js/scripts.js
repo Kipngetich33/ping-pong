@@ -19,4 +19,15 @@ function pingPong(input){
     return rangeOfNumbers;
 };
 
+
+//function that clears input text field
+function clearForm(form) {
+        $(':input').not(':button, :submit').val('');
+    };
+
 //user interface
+$(document).ready(function(){
+	 $("ul").empty();
+	 var input = parseInt($("#input").val());
+	 var numbers= PingPong(input)
+})
