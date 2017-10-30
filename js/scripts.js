@@ -20,16 +20,16 @@ var divisible3n5 = function(input){
 	}
 
 
-// $(document).ready(function(){
+$(document).ready(function(){
     
-// 	$("#form").submit(function(event){
-// 		var number= $("input").val();
+	$("#form").submit(function(event){
+		var number= $("input").val();
 
-// 		$("#output").append("<li>"+number+"</li>");
+		$("#output").append("<li>"+number+"</li>");
 
-// 		event.preventDefault();
+		event.preventDefault();
 
-// 	});
+	});
 
 
-// });
+});
