@@ -6,12 +6,12 @@ function pingPong(input){
 		if (position%3===0)&& (position%5===0){
 			rangeOfNumbers.push("PingPong");
 		}
-		// else if (position%5===0){
-		// 	rangeOfNumbers.push("Pong");
-		// }
-		// else if (position%3===0){
-		// 	rangeOfNumbers.push("Ping");
-		// }
+		else if (position%5===0){
+			rangeOfNumbers.push("Pong");
+		}
+		else if (position%3===0){
+			rangeOfNumbers.push("Ping");
+		}
 		// else {
 		// 	rangeOfNumbers.push(position)
 		// }
