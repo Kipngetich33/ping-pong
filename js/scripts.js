@@ -3,7 +3,7 @@ function pingPong(input){
 	var rangeOfNumbers= [];
 
 	for (var position=1;position <=input ;position++){
-		if (position%3===0)&& (position%5===0){
+		if ((position%3===0)&& (position%5===0)){
 			rangeOfNumbers.push("PingPong");
 		}
 		else if (position%5===0){
@@ -27,7 +27,16 @@ function clearForm(form) {
 
 //user interface
 $(document).ready(function(){
-	 $("ul").empty();
-	 var input = parseInt($("#input").val());
-	 var numbers= PingPong(input)
-})
+	$("form#form").submit(function(event){
+    	event.preventDefault();
+	
+	 // $("ul").empty();
+	 // var input = parseInt($("#input").val());
+	 // var numbers= pingPong(input);
+	 // for (var position=0; position<= numbers.length-1;position++){
+	 // 	$("ul#output").append("<li>"+numbers[position]+"</li>");
+	 // };
+  //    clearForm("#input");
+     });
+
+});
