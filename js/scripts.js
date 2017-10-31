@@ -31,11 +31,11 @@ $(document).ready(function(){
     	event.preventDefault();
 	
 	 // $("ul").empty();
-	 // var input = parseInt($("#input").val());
-	 // var numbers= pingPong(input);
-	 // for (var position=0; position<= numbers.length-1;position++){
-	 // 	$("ul#output").append("<li>"+numbers[position]+"</li>");
-	 // };
+	 var input = parseInt($("#input").val());
+	 var numbers= pingPong(input);
+	 for (var position=0; position<= numbers.length-1;position++){
+	 	$("ul#output").append("<li>"+numbers[position]+"</li>");
+	 };
   //    clearForm("#input");
      });
 
