@@ -36,7 +36,7 @@ $(document).ready(function(){
 	 for (var position=0; position<= numbers.length-1;position++){
 	 	$("ul#output").append("<li>"+numbers[position]+"</li>");
 	 };
-  //    clearForm("#input");
+     clearForm("#input");
      });
 
 });
