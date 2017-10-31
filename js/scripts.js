@@ -30,7 +30,7 @@ $(document).ready(function(){
 	$("form#form").submit(function(event){
     	event.preventDefault();
 	
-	 // $("ul").empty();
+	 $("ul").empty();
 	 var input = parseInt($("#input").val());
 	 var numbers= pingPong(input);
 	 for (var position=0; position<= numbers.length-1;position++){
