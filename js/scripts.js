@@ -63,6 +63,12 @@ $(document).ready(function(){
 	$("form#form").submit(function(event){
     	event.preventDefault();
 //add animation to the pingpong title
+     $("#ping-pong-title").fadeOut();
+     $("#ping-pong-title").fadeIn();
+     $("#exclamation h3").fadeOut();
+     $("#exclamation h3").fadeIn();
+
+
     
 	 $("ul").empty();
 	 var input = parseInt($("#input").val());
