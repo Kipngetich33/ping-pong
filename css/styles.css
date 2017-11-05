@@ -1,6 +1,9 @@
+body{
+	background-color: #e9e7e9;
+}
 #top{
 	color:#000000;
-	background-color: #ffd699;
+	background-color: #328284;
 	text-align: center;
 	height: 200px;
 }
@@ -12,21 +15,30 @@
 	margin-left: 40%;
 }
 #main-body{
-	background-color: gainsboro;
+	background-color: #909095;
 }
 #sidebar{
-	background-color: #39ac73;
+	background-color: #4f3558;
 	margin-top: 25px;
+	margin-left: 0px;
 	padding-left: 2%;
+	color: #ffffff;
 }
-
+h3{
+	text-align: center;
 }
 h4{
 	color: #ffd699;
 }
 #main-column{
 	margin-top: 25px;
-	padding-left: 2%;
+	
+}
+.align-center{
+	text-align: center;
+}
+#enter-label{
+	margin-left: 25%;
 }
 h5{
 	padding-left: 2%;
@@ -34,4 +46,19 @@ h5{
 }
 label{
 	font-weight: bold;
+}
+#ol-rules{
+	margin-left: 35%;
+}
+#input{
+	width:50%;
+	margin-left: 25%
+}
+#submit{
+	width: 30%;
+	background-color: #4f3558;
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 35%;
+	margin-top: 1%;
 }

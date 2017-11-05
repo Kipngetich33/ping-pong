@@ -6,35 +6,38 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <div class="row" id=top> 
-      <h1>Ping-Pong</h1>
-    </div>
-    <div class=row id="main-body">
-      <div class="col-md-3" id="sidebar">
-        <h3>About Ping Pong</h3>
-        <h4>Created by:</h4>
-        <p>Kipngetich Ngeno</p>
-        <h4>Github Username/URL:</h4>
-        <p>https://github.com/Kipngetich33/</p>
-        <h4>Level 2 Test for:</h4>
-        <p>Javascript</p>
+    <div class="container">
+      <div class="row" id=top> 
+        <h1 id="ping-pong-title">Ping-Pong</h1>
       </div>
-      <div class="col-md-9" id="main-column">
-        <h3>Let's Play<h3>
-        <h5>Rules:</h5>
-        <p>Ping pong will count up to your number from 1 with the following exceptions<p>
-        <ol>
-          <li>Numbers divisible by 3 becomes "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 and 5 "become" </li>
-        </ol>
-        <form id="form">
-          <label>Enter your number here</label>
-          <input type="text" id="input">
-          <button id="submit">Ping Pong</button>
-        </form>
-        <ul id="output">
-        </ul>
+      <hr/>
+      <div class=row id="main-body">
+        <div class="col-md-3" id="sidebar">
+          <h3>About Ping Pong</h3>
+          <h4>Created by:</h4>
+          <p>Kipngetich Ngeno</p>
+          <h4>Github Username/URL:</h4>
+          <p>https://github.com/Kipngetich33/</p>
+          <h4>Level 2 Test for:</h4>
+          <p>Javascript</p>
+        </div>
+        <div class="col-md-9" id="main-column">
+          <h3>Let's Play<h3>
+          <h5 class="align-center">Rules:</h5>
+          <p class="align-center">Ping pong will count up to your number from 1 with the following exceptions<p>
+          <ol id="ol-rules">
+            <li>Numbers divisible by 3 becomes "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 "become" </li>
+          </ol>
+          <form  class="form-group" id="form">
+            <label id="enter-label">Enter your number here</label>
+            <input class="form-control" type="text" id="input">
+            <button class="form-control" id="submit">Ping Pong</button>
+          </form>
+          <ul id="output">
+          </ul>
+        </div>
       </div>
     </div>
   	<script src="js/jquery-3.2.1.js"></script>
