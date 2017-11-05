@@ -1,4 +1,12 @@
 //business logic
+// function animate(){
+// 	while(var index=1;index<1000000000000;index++){
+// 		$("h1#ping-pong-title").text("ok5");
+// 		$("h1#ping-pong-title").text("ok5");
+
+// 	}
+// }
+
 function pingPong(input){
 	var rangeOfNumbers= [];
 
@@ -27,10 +35,21 @@ function clearForm(form) {
 
 //user interface
 $(document).ready(function(){
+	$("h1#ping-pong-title").slideOut();
+	$("h1#ping-pong-title").text("ping");
+	$("h1#ping-pong-title").slideIn();
+	$("h1#ping-pong-title").slideOut();
+	$("h1#ping-pong-title").text("pong");
+	// $("h1#ping-pong-title").fadeIn();
+	// $("h1#ping-pong-title").fadeOut();
+	// $("h1#ping-pong-title").text("Ping-Pong");
+	// $("h1#ping-pong-title").fadeIn();
+
+	// $("h1#ping-pong-title").text("oklllll");
 	$("form#form").submit(function(event){
     	event.preventDefault();
-
-	
+//add animation to the pingpong title
+    
 	 $("ul").empty();
 	 var input = parseInt($("#input").val());
 	 var numbers= pingPong(input);
