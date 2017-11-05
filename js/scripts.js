@@ -1,29 +1,5 @@
 //business logic
 
-//comment out the animation
-// function animate(){
-// 	for(var index=0;index<=1000;index++){
-// 		if (index<=100){
-// 			$("h1#ping-pong-title").fadeOut();
-// 			$("h1#ping-pong-title").text("ping");
-// 			$("h1#ping-pong-title").fadeIn();
-// 			$("h1#ping-pong-title").fadeOut();
-// 		}
-// 		else if(index<=200){
-// 			$("h1#ping-pong-title").text("pong");
-// 			$("h1#ping-pong-title").fadeIn();
-// 			$("h1#ping-pong-title").fadeOut();
-// 		}
-// 		else if (index<=300){
-// 			$("h1#ping-pong-title").text("Ping-Pong");
-// 			$("h1#ping-pong-title").fadeIn();
-// 			$("h1#ping-pong-title").fadeOut();
-// 		}
-// 	    else{
-// 	    	index=0;
-// 	    }
-// 	};
-// };
 function pingPong(input){
 	var rangeOfNumbers= [];
 
@@ -83,7 +59,9 @@ $(document).ready(function(){
 		$("ul#output").empty();
 		$(".align-center").show();
      	$("#ol-rules").show();
+     	clearForm("#input");
 
-	})
+
+	});
 
 });
