@@ -8,6 +8,10 @@ body{
 	text-align: center;
 	height: 200px;
 	display: none;
+	/*border-top-right-radius: 3%;
+	border-top-left-radius: 3%;*/
+	border-bottom-right-radius: 90%;
+	border-bottom-left-radius: 90%;
 }
 #top h1{
 	display: flex;
@@ -16,18 +20,24 @@ body{
 	text-align: center;
 	margin-left: 40%;
 	color: #ffffff;
+	margin-top: 20px;
 }
 #main-body{
 	background-color: #909095;
 }
 #sidebar{
-	background-color: #4f3558;
+	background-color: #328284;
 	margin-top: 25px;
 	margin-left: 0px;
 	padding-left: 2%;
 	color: #ffffff;
 	display: none;
 }
+#btn-info{
+	background-color:#4f3558;
+	margin-color:#4f3558;
+}
+
 h3{
 	text-align: center;
 }
