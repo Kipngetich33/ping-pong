@@ -80,3 +80,16 @@ label{
 	margin-left: 35%;
 	margin-top: 1%;
 }
+#output{
+	margin-left: 45%;
+	color: #ffffff;
+}
+#blink{
+	width: 15%;
+	background-color: #ffd699;
+	color: #4f3558;
+	font-weight: bold;
+	margin-left: 65%;
+	margin-top: 1%;
+	display: none;
+}

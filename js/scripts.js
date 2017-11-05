@@ -54,11 +54,10 @@ function clearForm(form) {
 $(document).ready(function(){
     // animate();
 
-// this section allow the side bar to slide in when the page is refreshed
+// this section allow the side bar.main-column and top divs to slide in when the page is refreshed
     $("#sidebar").slideToggle();
     $("#top").slideToggle();
     $("#main-column").slideToggle();
-
 
 	$("form#form").submit(function(event){
     	event.preventDefault();
@@ -67,10 +66,11 @@ $(document).ready(function(){
      $("#ping-pong-title").fadeIn();
      $("#exclamation h3").fadeOut();
      $("#exclamation h3").fadeIn();
+     $(".align-center").hide();
+     $("#ol-rules").hide();
+     $("#blink").slideToggle();
 
-
-    
-	 $("ul").empty();
+	 $("ul#output").empty();
 	 var input = parseInt($("#input").val());
 	 var numbers= pingPong(input);
 	 for (var position=0; position<= numbers.length-1;position++){
@@ -78,5 +78,12 @@ $(document).ready(function(){
 	 };
      clearForm("#input");
      });
+	$("button#blink").click(function(event){
+		event.preventDefault();
+		$("ul#output").empty();
+		$(".align-center").show();
+     	$("#ol-rules").show();
+
+	})
 
 });
