@@ -1,11 +1,13 @@
 body{
 	background-color: #e9e7e9;
+	background:url("../image/last-dice.jpg"); 
 }
 #top{
 	color:#000000;
 	background-color: #328284;
 	text-align: center;
 	height: 200px;
+	display: none;
 }
 #top h1{
 	display: flex;
@@ -13,6 +15,7 @@ body{
 	align-items: center;
 	text-align: center;
 	margin-left: 40%;
+	color: #ffffff;
 }
 #main-body{
 	background-color: #909095;
@@ -23,6 +26,7 @@ body{
 	margin-left: 0px;
 	padding-left: 2%;
 	color: #ffffff;
+	display: none;
 }
 h3{
 	text-align: center;
@@ -32,6 +36,7 @@ h4{
 }
 #main-column{
 	margin-top: 25px;
+	display: none;
 	
 }
 .align-center{
