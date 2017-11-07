@@ -6,10 +6,21 @@
 
 This is a game that allow the user to enter a number then outputs a range of numbers from 1 to the entered number with the exception of number divisible by 3,5 and 15 returned as ping, pong and ping-pong respect.
 
+## How To Play
+
+#### The user enters a number in the Text field and presses enter
+### Rules
+* If a number is divisible by 3 it returns "Ping"
+* If a number is divisible by 5 it returns "pong"
+* If a number is divisible by 15 it returns "ping Pong"
 
 ## Technologies Used
 
 This project uses major technologies which are :HTML5/css , Bootstrap and Javascript/Jquery
+
+## Known Bugs
+
+#### The refresh button may not be available when you require to refresh the page, You can however alternatively refresh the webpage
 
 ## Support and contact details
 
